@@ -1,0 +1,14 @@
+# build files
+build
+
+# pyc files
+*.py[code]
+
+# logs
+*.log
+
+# egg related
+project.egg-info/
+
+# auto generated files from Scrapyd-deploy
+setup.py
