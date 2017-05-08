@@ -1,6 +1,10 @@
 # build files
 build
 
+# Export files
+*.csv
+*.json
+
 # pyc files
 *.py[code]
 
