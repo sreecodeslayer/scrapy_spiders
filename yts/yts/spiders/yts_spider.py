@@ -4,8 +4,7 @@ from yts.items import YtsItem
 
 from pymongo import MongoClient
 
-# Use auth if needed
-coll = MongoClient()['yts']['all']
+coll = MongoClient('mongodb://rootuser:passme123@localhost:27045')['yts']['all']
 coll.drop()
 
 class YtsSpiderSpider(scrapy.Spider):
